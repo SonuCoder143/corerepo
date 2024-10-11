@@ -7,3 +7,6 @@ def firstView(request):
 
 def secondView(request):
     return render(request,"html/second.html")
+
+def homeview(request):
+    return render(request,"html/index.html")
